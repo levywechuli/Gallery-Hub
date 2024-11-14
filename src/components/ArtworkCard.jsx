@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 
 function ArtworkCard(id,title, artist,imageUrl, price){
+    const handlePurchase = () => {
+        alert(`Thank you for purchasing ${title}!`);
+      };
     return(
      <div className="artwork-card">
         <img src={imageUrl} alt={title}/>
@@ -9,7 +12,7 @@ function ArtworkCard(id,title, artist,imageUrl, price){
         <p>${artist}</p>
         <p>${price.toLocaleString()}</p>
         <Link to={`/artwork/${id}`}>View Details</Link>
-        <button >Purchase</button>  
+        <button onClick={handlePurchase} >Purchase</button>  
      </div>
     )
 }

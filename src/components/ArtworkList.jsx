@@ -35,7 +35,7 @@ function ArtworkList(){
             </div>
         </div>
 
-    )
+    );
 }
 
 export default ArtworkList;
