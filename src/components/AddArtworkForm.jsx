@@ -31,15 +31,15 @@ function AddArtworkForm (){
             setPrice('');
 
         });
-     }
+     };
 
 
     return(
-        <form>
-         <input type="text" placeholder="title" />  
-         <input type="text" placeholder="Artist" />  
-         <input type="text" placeholder="Image URL" />  
-         <input type="number" placeholder="Price" /> 
+        <form onSubmit={handleSubmit}>
+         <input type="text" placeholder="title" value={title} onChange={(event) => setTitle(event.target.value)} required/>  
+         <input type="text" placeholder="Artist" value={artist} onChange={(event) => setArtist(event.target.value)} required/>  
+         <input type="text" placeholder="Image URL" value={imageUrl} onChange={(event) => setImageUrl(event.target.value)} required />
+         <input type="number" placeholder="Price" value={price} onChange={(event) => setPrice(event.target.value)} required/> 
          <button type="submit">Add Artwork</button> 
         </form>
     )

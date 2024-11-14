@@ -1,4 +1,4 @@
-function Search(onSearch){
+function Search({onSearch}){
     const handleChange = (e) => {
         onSearch(e.target.value);
       };
