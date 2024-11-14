@@ -149,7 +149,7 @@ body {
 .artwork-card a:hover {
   color: #0b5bb5;
 }
-artwork-card button {
+.artwork-card button {
   background-color: #87561e;
   color: #ffffff;
   border: none;
@@ -229,8 +229,8 @@ artwork-card button {
   text-align: center;
 }
 .view-detail img {
-  width: 100%;
-  height: auto;
+  width: 70%;
+  height: 20%;
   border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -261,7 +261,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #6b6767;
+  background-color:  #87561e;
   cursor: pointer;
   transition: border-color 0.25s;
 }
