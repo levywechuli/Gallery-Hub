@@ -1,11 +1,13 @@
+
+
 function Search({onSearch}){
     const handleChange = (e) => {
         onSearch(e.target.value);
       };
     
-    return(
+    return(<div className="search">
     <input type="text" placeholder="Search artworks...." onChange={handleChange}/>
-  
+    </div>
     )
 }
 

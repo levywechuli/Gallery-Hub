@@ -1,39 +1,84 @@
 :root {
   font-weight: 400;
+  box-sizing: border-box;
 
 
-  color: rgba(0, 0, 0, 0.87);
+  color: rgb(21, 21, 21);
 }
-.navbar{
+.navbar {
   background-color: black;
-  height: 60px;
+  height: 75px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  width: 100%;
+  padding: 0 20px; /* Add some padding to keep items from touching the edges */
 }
 
-
-
-.home-link {
-  color:white;
-  margin: 0 15px;
-
+/* Left-aligned Links */
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 50 100px ;
 }
 
+/* Container for Right-Aligned Links and Search */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 180px;
+}
+
+/* Individual Link Styles */
+.home-link,
 .add-artwork-link {
- color: white;
- margin: 0 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 40px; /* Adds spacing between links */
+  text-decoration: none; /* Optional: removes underline if it's a link */
 }
 
+/* Search Styles */
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+  
+}
+.search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 7px 15px;
+  border: 2px solid #151414;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search input:focus {
+  outline: none;
+  border-color: #1e1f21;
+  box-shadow: 0 0 15px rgb(231, 233, 235);
+}
+
+.search input::placeholder {
+  color: #555454f8;
+}
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #767678;
 }
 
 body {
