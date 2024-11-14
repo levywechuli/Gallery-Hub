@@ -7,7 +7,7 @@ function ArtworkList(){
     const [searchTerm, setSearchTerm]= useState('')
 
     useEffect(()=>{
-        fetch("http://localhost:3000/artworks")
+        fetch("http://localhost:3001/artworks")
         .then((Response) => Response.json())
         .then((data) => setArtworks(data));
 
@@ -18,7 +18,7 @@ function ArtworkList(){
     
     return(
         <div>
-            <Search/>
+        <Search onSearch={setSearchTerm} />
             <div className="artwork-list">
             {filteredArtworks.map((artwork) => (
           <ArtworkCard 
