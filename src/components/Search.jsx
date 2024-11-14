@@ -1,7 +1,8 @@
 function Search(){
+    
     return(
-    <input>
-    </input>
+    <input type="text" placeholder="Search artworks...."/>
+  
     )
 }
 

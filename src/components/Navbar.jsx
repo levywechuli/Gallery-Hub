@@ -1,12 +1,15 @@
+import { Link } from 'react-router-dom';
 function Navbar(){
     return(
         <nav>
-            <link to= "/">Home</link>
-            <link to= "">Add Artwork</link>
+           
+            <Link to= "/">Home</Link>
+            <Link to= "/add-artwork">Add Artwork</Link>
+           
 
         </nav>
 
-    )
+    );
 }
 
 export default Navbar;

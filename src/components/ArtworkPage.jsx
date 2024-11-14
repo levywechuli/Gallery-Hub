@@ -1,6 +1,7 @@
 function ArtworkPage(){
     return(
         <div>
+            
 
         </div>
     )
