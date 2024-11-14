@@ -1,14 +1,20 @@
 import { Link } from 'react-router-dom';
-function Navbar(){
-    return(
+
+import Search from './Search';
+
+
+function Navbar({onSearch}){
+
+    return(<div className='navbar'>
         <nav>
            
-            <Link to= "/">Home</Link>
-            <Link to= "/add-artwork">Add Artwork</Link>
-           
+            <Link to= "/" className="nav-link home-link">Home</Link>
+            <Link to= "/add-artwork" className="nav-link add-artwork-link">Add Artwork</Link>
 
+        
         </nav>
-
+        <Search onSearch={onSearch} />
+     </div>
     );
 }
 

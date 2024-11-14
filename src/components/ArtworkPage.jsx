@@ -8,7 +8,7 @@ function ArtworkPage(){
 
   useEffect(() => {
     if (id){
-    fetch(`http://localhost:3000/artworks/${id}`)
+    fetch(`http://localhost:3001/artworks/${id}`)
       .then((response) => response.json())
       .then((data) => setArtwork(data))
       .catch((error) => console.error("Error fetching artwork:", error));

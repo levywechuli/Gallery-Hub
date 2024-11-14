@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import Search from "./Search";
 import ArtworkCard from './ArtworkCard';
 
-function ArtworkList(){
+function ArtworkList({searchTerm}){
     const [artworks,setArtworks]= useState([]);
-    const [searchTerm, setSearchTerm]= useState('')
+    
 
     useEffect(()=>{
         fetch("http://localhost:3001/artworks")
@@ -18,7 +17,7 @@ function ArtworkList(){
     
     return(
         <div>
-        <Search onSearch={setSearchTerm} />
+            
             <div className="artwork-list">
             {filteredArtworks.map((artwork) => (
           <ArtworkCard 

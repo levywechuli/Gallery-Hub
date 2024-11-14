@@ -1,67 +1,74 @@
 {
-    "artworks": [
-      {
-        "id": "1",
-        "title": "Starry Night",
-        "artist": "Vincent van Gogh",
-        "imageUrl": "link-to-image",
-        "price": 100000000
-      },
-      {
-        "id": "2",
-        "title": "The Persistence of Memory",
-        "artist": "Salvador Dalí",
-        "imageUrl": "link-to-image",
-        "price": 65000000
-      },
-      {
-        "id": "3",
-        "title": "The Scream",
-        "artist": "Edvard Munch",
-        "imageUrl": "link-to-image",
-        "price": 120000000
-      },
-      {
-        "id": "4",
-        "title": "Girl with a Pearl Earring",
-        "artist": "Johannes Vermeer",
-        "imageUrl": "link-to-image",
-        "price": 78000000
-      },
-      {
-        "id": "5",
-        "title": "Mona Lisa",
-        "artist": "Leonardo da Vinci",
-        "imageUrl": "link-to-image",
-        "price": 860000000
-      },
-      {
-        "id": "6",
-        "title": "The Birth of Venus",
-        "artist": "Sandro Botticelli",
-        "imageUrl": "link-to-image",
-        "price": 200000000
-      },
-      {
-        "id": "7",
-        "title": "The Kiss",
-        "artist": "Gustav Klimt",
-        "imageUrl": "link-to-image",
-        "price": 150000000
-      },
-      {
-        "id": "8",
-        "title": "The Night Watch",
-        "artist": "Rembrandt van Rijn",
-        "imageUrl": "link-to-image",
-        "price": 50000000
-      },
-      {
-        "id": "9",
-        "title": "Water Lilies",
-        "artist": "Claude Monet",
-        "imageUrl": "link-to-image",
-        "price": 80000000
-      }
-    ]
-  }
+  "artworks": [
+    {
+      "id": "1",
+      "title": "Starry Night",
+      "artist": "Vincent van Gogh",
+      "imageUrl": "link-to-image",
+      "price": 100000000
+    },
+    {
+      "id": "2",
+      "title": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "imageUrl": "link-to-image",
+      "price": 65000000
+    },
+    {
+      "id": "3",
+      "title": "The Scream",
+      "artist": "Edvard Munch",
+      "imageUrl": "link-to-image",
+      "price": 120000000
+    },
+    {
+      "id": "4",
+      "title": "Girl with a Pearl Earring",
+      "artist": "Johannes Vermeer",
+      "imageUrl": "link-to-image",
+      "price": 78000000
+    },
+    {
+      "id": "5",
+      "title": "Mona Lisa",
+      "artist": "Leonardo da Vinci",
+      "imageUrl": "link-to-image",
+      "price": 860000000
+    },
+    {
+      "id": "6",
+      "title": "The Birth of Venus",
+      "artist": "Sandro Botticelli",
+      "imageUrl": "link-to-image",
+      "price": 200000000
+    },
+    {
+      "id": "7",
+      "title": "The Kiss",
+      "artist": "Gustav Klimt",
+      "imageUrl": "link-to-image",
+      "price": 150000000
+    },
+    {
+      "id": "8",
+      "title": "The Night Watch",
+      "artist": "Rembrandt van Rijn",
+      "imageUrl": "link-to-image",
+      "price": 50000000
+    },
+    {
+      "id": "9",
+      "title": "Water Lilies",
+      "artist": "Claude Monet",
+      "imageUrl": "link-to-image",
+      "price": 80000000
+    },
+    {
+      "id": "4514",
+      "title": "levy",
+      "artist": "wangulu",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "price": 122222
+    }
+  ]
+}
