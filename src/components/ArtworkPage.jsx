@@ -17,7 +17,7 @@ function ArtworkPage(){
 
     if (!artwork) return <p>Loading...</p>;
     return(
-        <div>
+        <div className='view-detail'>
             <img src={artwork.imageUrl} alt={artwork.title} />
             <h1>{artwork.title}</h1>
             <p>{artwork.artist}</p>

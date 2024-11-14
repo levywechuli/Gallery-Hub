@@ -16,9 +16,9 @@ function ArtworkList({searchTerm}){
       );
     
     return(
-        <div>
+        <div >
             
-            <div className="artwork-list">
+            <div className="artwork-container">
             {filteredArtworks.map((artwork) => (
           <ArtworkCard 
           key={artwork.id} 
