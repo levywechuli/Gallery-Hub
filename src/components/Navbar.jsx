@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import Search from "./Search";
 
 function Navbar({ onSearch }) {
@@ -20,3 +19,4 @@ function Navbar({ onSearch }) {
 }
 
 export default Navbar;
+

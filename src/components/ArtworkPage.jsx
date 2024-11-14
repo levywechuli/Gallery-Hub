@@ -7,7 +7,7 @@ function ArtworkPage() {
 
   useEffect(() => {
     if (id) {
-      fetch(`http://localhost:3001/artworks/${id}`)
+      fetch(`https://gallery-hub.onrender.com/artworks/${id}`)
         .then((response) => response.json())
         .then((data) => setArtwork(data))
         .catch((error) => console.error("Error fetching artwork:", error));
@@ -19,8 +19,8 @@ function ArtworkPage() {
     <div className="view-detail">
       <img src={artwork.imageUrl} alt={artwork.title} />
       <h1>{artwork.title}</h1>
-      <p>ARTIST:{artwork.artist}</p>
-      <p className="view-p">PRICE:${artwork.price.toLocaleString()}</p>
+      <p>ARTIST: {artwork.artist}</p>
+      <p className="view-p">PRICE: ${artwork.price.toLocaleString()}</p>
     </div>
   );
 }

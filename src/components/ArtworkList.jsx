@@ -5,8 +5,8 @@ function ArtworkList({ searchTerm }) {
   const [artworks, setArtworks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/artworks")
-      .then((Response) => Response.json())
+    fetch("https://gallery-hub.onrender.com/artworks")
+      .then((response) => response.json())
       .then((data) => setArtworks(data));
   }, []);
   const filteredArtworks = artworks.filter((artwork) =>

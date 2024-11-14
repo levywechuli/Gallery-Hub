@@ -15,16 +15,16 @@ function AddArtworkForm() {
       imageUrl,
       price: parseFloat(price),
     };
-    fetch("http://localhost:3001/artworks", {
+    fetch("https://gallery-hub.onrender.com/artworks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(newArtwork),
     })
-      .then((Response) => Response.json())
+      .then((response) => response.json())
       .then(() => {
-        alert("Artwork added sucessfully!");
+        alert("Artwork added successfully!");
         setTitle("");
         setArtist("");
         setImageUrl("");
@@ -36,7 +36,7 @@ function AddArtworkForm() {
     <form onSubmit={handleSubmit} className="form-detail">
       <input
         type="text"
-        placeholder="title"
+        placeholder="Title"
         value={title}
         onChange={(event) => setTitle(event.target.value)}
         required

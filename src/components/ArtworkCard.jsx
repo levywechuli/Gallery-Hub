@@ -16,6 +16,7 @@ function ArtworkCard({ id, title, artist, imageUrl, price }) {
     </div>
   );
 }
+
 ArtworkCard.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
