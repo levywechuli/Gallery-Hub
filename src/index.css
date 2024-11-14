@@ -11,10 +11,10 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 0 20px; /* Add some padding to keep items from touching the edges */
+  padding: 0 20px;
 }
 
-/* Left-aligned Links */
+
 .nav-link {
   color: white;
   font-weight: bold;
@@ -22,7 +22,6 @@
   margin: 50 100px ;
 }
 
-/* Container for Right-Aligned Links and Search */
 .nav-right {
   display: flex;
   align-items: center;
@@ -35,17 +34,17 @@
   padding-right: 180px;
 }
 
-/* Individual Link Styles */
+
 .home-link,
 .add-artwork-link {
   color: white;
   font-weight: bold;
   font-size: 19px;
-  margin: 40px; /* Adds spacing between links */
-  text-decoration: none; /* Optional: removes underline if it's a link */
+  margin: 40px; 
+  text-decoration: none; 
 }
 
-/* Search Styles */
+
 .search {
   display: flex;
   align-items: center;
@@ -87,7 +86,50 @@ body {
  
   
 }
+.artwork-container{
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
 
+.artwork-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box shadow 0.3s;
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+}
+
+.artwork-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.artwork-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.artwork-card h2{
+  font-size: 1.5em;
+  color: #333333;
+  margin: 8px 0;
+}
+
+.artwork-card p{
+  color: #777777;
+  font-size: 1em;
+  margin: 4px 0;
+}
 
 h1 {
   font-size: 3.2em;
