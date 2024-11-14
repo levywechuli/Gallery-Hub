@@ -35,7 +35,7 @@ function AddArtworkForm (){
 
 
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="form-detail">
          <input type="text" placeholder="title" value={title} onChange={(event) => setTitle(event.target.value)} required/>  
          <input type="text" placeholder="Artist" value={artist} onChange={(event) => setArtist(event.target.value)} required/>  
          <input type="text" placeholder="Image URL" value={imageUrl} onChange={(event) => setImageUrl(event.target.value)} required />
