@@ -176,6 +176,39 @@ body {
   transition: background-color 0.3s;
 }
 
+.view-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.view-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.view-detail h1 {
+  font-size: 2em;
+  color: #333333;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+.view-detail p {
+  font-size: 25px;
+  color: #777777;
+  margin: 8px 0;
+  font-weight: 800;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

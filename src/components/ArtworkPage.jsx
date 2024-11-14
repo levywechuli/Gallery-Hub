@@ -20,9 +20,9 @@ function ArtworkPage(){
         <div className='view-detail'>
             <img src={artwork.imageUrl} alt={artwork.title} />
             <h1>{artwork.title}</h1>
-            <p>{artwork.artist}</p>
-            <p>${artwork.price.toLocaleString()}</p>            
-
+            <p>ARTIST:{artwork.artist}</p> 
+            <p className='view-p'>PRICE:${artwork.price.toLocaleString()}</p>            
+        
         </div>
     );
 }

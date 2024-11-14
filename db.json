@@ -5,63 +5,63 @@
       "title": "Starry Night",
       "artist": "Vincent van Gogh",
       "imageUrl": "https://i.pinimg.com/236x/71/23/17/712317db81f74d09643305bcc52fac5c.jpg",
-      "price": 100000000
+      "price": 900
     },
     {
       "id": "2",
       "title": "The Persistence of Memory",
       "artist": "Salvador Dalí",
       "imageUrl": "https://i.pinimg.com/236x/22/bb/b4/22bbb4a05f032051d24f372b6c48bf0f.jpg",
-      "price": 65000000
+      "price": 455
     },
     {
       "id": "3",
       "title": "The Scream",
       "artist": "Edvard Munch",
       "imageUrl": "https://i.pinimg.com/236x/b8/b5/71/b8b571ba9f4b9f17f8720f8487e7bee2.jpg",
-      "price": 120000000
+      "price": 650
     },
     {
       "id": "4",
       "title": "Girl with a Pearl Earring",
       "artist": "Johannes Vermeer",
       "imageUrl": "https://i.pinimg.com/474x/9f/60/55/9f6055127ffc4b8716070b96dab10b47.jpg",
-      "price": 78000000
+      "price": 340
     },
     {
       "id": "5",
       "title": "Mona Lisa",
       "artist": "Leonardo da Vinci",
       "imageUrl": "https://i.pinimg.com/236x/4e/7c/71/4e7c71be32031d7bae2e08afe8e6480e.jpg",
-      "price": 860000000
+      "price": 125
     },
     {
       "id": "6",
       "title": "The Birth of Venus",
       "artist": "Sandro Botticelli",
       "imageUrl": "https://i.pinimg.com/474x/9a/a4/bf/9aa4bf48170c81d5b03b622a40ae2f12.jpg",
-      "price": 200000000
+      "price": 420
     },
     {
       "id": "7",
       "title": "The Kiss",
       "artist": "Gustav Klimt",
       "imageUrl": "https://i.pinimg.com/474x/82/fc/82/82fc828ada254f6afcae866d760ec074.jpg",
-      "price": 150000000
+      "price": 135
     },
     {
       "id": "8",
       "title": "The Night Watch",
       "artist": "Rembrandt van Rijn",
       "imageUrl": "https://i.pinimg.com/236x/1e/ee/96/1eee9660b741345bf27d741b9005e794.jpg",
-      "price": 50000000
+      "price": 275
     },
     {
       "id": "9",
       "title": "Water Lilies",
       "artist": "Claude Monet",
       "imageUrl": "https://i.pinimg.com/236x/be/8e/8b/be8e8b63b3965858048db533f4e94254.jpg",
-      "price": 80000000
+      "price":300
     }
   ]
 }
