@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import ArtworkCard from "./ArtworkCard";
+import PropTypes from 'prop-types';
 
 function ArtworkList({ searchTerm }) {
   const [artworks, setArtworks] = useState([]);
 
   useEffect(() => {
-    fetch("https://gallery-hub.onrender.com/artworks")
-      .then((response) => response.json())
+   fetch("https://gallery-hub.onrender.com/artworks")
+      .then((Response) => Response.json())
       .then((data) => setArtworks(data));
   }, []);
   const filteredArtworks = artworks.filter((artwork) =>
@@ -31,5 +32,8 @@ function ArtworkList({ searchTerm }) {
     </div>
   );
 }
+ArtworkList.propTypes = {
+  searchTerm: PropTypes.string.isRequired, 
+};
 
 export default ArtworkList;

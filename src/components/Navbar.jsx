@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import Search from "./Search";
+import PropTypes from 'prop-types';
+
+
 
 function Navbar({ onSearch }) {
   return (
@@ -17,6 +20,10 @@ function Navbar({ onSearch }) {
     </div>
   );
 }
+Navbar.propTypes = {
+  onSearch: PropTypes.func.isRequired,
+};
+
 
 export default Navbar;
-
+ 

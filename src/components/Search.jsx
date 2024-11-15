@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 function Search({ onSearch }) {
   const handleChange = (e) => {
     onSearch(e.target.value);
@@ -14,5 +14,8 @@ function Search({ onSearch }) {
     </div>
   );
 }
+Search.propTypes = {
+  onSearch: PropTypes.func.isRequired,
+};
 
 export default Search;
