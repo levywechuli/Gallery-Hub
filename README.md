@@ -11,4 +11,4 @@ Art Gallery Hub is a minimalist art gallery web application built with React JS,
 
 ## Screenshot  
 
-
+![image alt](https://github.com/levywechuli/Gallery-Hub/blob/main/Screenshot%20from%202024-11-15%2007-33-40.png?raw=true)
